@@ -7,5 +7,6 @@ echo "GREP command to find number of packets delivered (piped to word count)"
 echo " "
 grep "^d" 6.tr | wc
 echo "Running XGRAPH."
-/root/Documents/XGRAPH/bin/xgraph cwnd0.tr cwnd1.tr cwnd2.tr 
+/root/Documents/XGRAPH/bin/xgraph cwnd0.tr cwnd1.tr cwnd2.tr
+
 
