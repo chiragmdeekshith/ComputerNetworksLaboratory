@@ -14,7 +14,7 @@ $ns attach-agent $n0 $tcp0
 $ns attach-agent $n1 $tcpSink0
 $ns connect $tcp0 $tcpSink0
 
-$tcp0 set packetSize = 1500
+$tcp0 set packetSize_ 1500
 set ftp0 [new Application/FTP]
 $ftp0 attach-agent $tcp0
 
